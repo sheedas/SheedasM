@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sheedas M Luxury Transportation</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600&family=Open+Sans&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Open Sans', sans-serif;
+      background-color: #fffdf4;
+      color: #222;
+      text-align: center;
+    }
+
+    header {
+      padding: 0 20px 20px;
+    }
+
+    .header-img {
+      width: 100%;
+      max-height: 300px;
+      object-fit: cover;
+      border-bottom-left-radius: 20px;
+      border-bottom-right-radius: 20px;
+    }
+
+    h1 {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 42px;
+      color: #064420;
+      margin: 20px 0 5px;
+    }
+
+    .tagline {
+      font-size: 18px;
+      color: #555;
+      font-style: italic;
+      margin-bottom: 20px;
+    }
+
+    form {
+      background: #fff;
+      max-width: 550px;
+      margin: 0 auto;
+      padding: 30px;
+      border-radius: 15px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+      text-align: left;
+    }
+
+    input, textarea {
+      width: 100%;
+      padding: 14px;
+      margin-top: 15px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      font-size: 16px;
+      transition: border 0.3s;
+    }
+
+    input:focus, textarea:focus {
+      outline: none;
+      border-color: #0b6a38;
+    }
+
+    textarea {
+      min-height: 100px;
+      resize: vertical;
+    }
+
+    button {
+      display: block;
+      width: 100%;
+      margin-top: 20px;
+      background-color: #064420;
+      color: white;
+      font-size: 18px;
+      font-weight: bold;
+      border: none;
+      padding: 14px;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #0b6a38;
+    }
+
+    .footer {
+      margin-top: 50px;
+      position: relative;
+    }
+
+    .footer img {
+      width: 100%;
+      height: auto;
+      display: block;
+      object-fit: cover;
+      opacity: 0.95;
+    }
+
+    .footer p {
+      position: absolute;
+      bottom: 12px;
+      width: 100%;
+      color: #fff;
+      background: rgba(0, 0, 0, 0.4);
+      font-size: 14px;
+      padding: 10px 0;
+      margin: 0;
+      font-weight: 600;
+    }
+
+    @media (max-width: 600px) {
+      form {
+        padding: 20px;
+      }
+      h1 {
+        font-size: 32px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="vehicle5.jpg" alt="Luxury Shuttle" class="header-img" />
+    <h1>Sheedas M Luxury Transportation</h1>
+    <p class="tagline">Reliable. Stylish. On time — every time.</p>
+  </header>
+
+  <form action="https://formspree.io/f/mzzgeqjr" method="POST">
+    <input type="text" name="name" placeholder="Your Full Name" required />
+    <input type="tel" name="phone" placeholder="Your Phone Number" required />
+    <input type="datetime-local" name="datetime" required />
+    <input type="text" name="pickup" placeholder="Pickup Location" required />
+    <input type="text" name="dropoff" placeholder="Drop-off Location" required />
+    <textarea name="message" placeholder="Additional Notes (optional)"></textarea>
+
+    <input type="hidden" name="_subject" value="New Shuttle Booking Request" />
+    <button type="submit">Submit Booking</button>
+  </form>
+
+  <div class="footer">
+    <p>&copy; 2025 Sheedas M Luxury Transportation</p>
+  </div>
+
+</body>
+</html>
+
+
+
+
+
+
+
